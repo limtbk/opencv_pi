@@ -16,7 +16,7 @@ sudo rm -rf ~/.cache/pip
 echo "" >>~/.profile
 echo "# virtualenv and virtualenvwrapper" >>~/.profile
 echo "export WORKON_HOME=\$HOME/.virtualenvs" >>~/.profile
-echo "source /usr/local/bin/virtualenvwrapper.sh" >>/.profile
+echo "source /usr/local/bin/virtualenvwrapper.sh" >>~/.profile
 
 source ~/.profile
 
